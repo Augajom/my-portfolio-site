@@ -8,6 +8,10 @@ on:
 jobs:
   bulid-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
 
     steps:
       - name: Checkout repository
@@ -19,7 +23,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm Install
+        run: npm install
 
       - name: Build React App
         run: npm run build
