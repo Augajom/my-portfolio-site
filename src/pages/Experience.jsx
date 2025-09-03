@@ -15,6 +15,21 @@ import "yet-another-react-lightbox/styles.css";
 // i18n
 import { useTranslation } from "react-i18next";
 
+//image
+import img1 from "../assets/experiences/1.png"
+import img2 from "../assets/experiences/2.png"
+import img3 from "../assets/experiences/3.png"
+import img4 from "../assets/experiences/4.png"
+import img5 from "../assets/experiences/5.png"
+import img6 from "../assets/experiences/6.png"
+import img7 from "../assets/experiences/7.png"
+import img8 from "../assets/experiences/8.png"
+import img9 from "../assets/experiences/9.jpg"
+import img10 from "../assets/experiences/10.jpg"
+import img11 from "../assets/experiences/11.jpg"
+import img12 from "../assets/experiences/12.jpg"
+import img13 from "../assets/experiences/13.jpg"
+
 function Experience() {
   const { t } = useTranslation();
   const [lightboxOpen, setLightboxOpen] = useState(false)
@@ -27,19 +42,19 @@ function Experience() {
   // รูปภาพ (ไม่ต้องแปล)
   const media = {
     exp1: [
-      "/src/assets/experiences/1.png",
-      "/src/assets/experiences/2.png",
-      "/src/assets/experiences/3.png",
-      "/src/assets/experiences/4.png",
-      "/src/assets/experiences/5.png",
-      "/src/assets/experiences/6.png",
-      "/src/assets/experiences/7.png",
-      "/src/assets/experiences/8.png",
-      "/src/assets/experiences/9.jpg",
-      "/src/assets/experiences/10.jpg",
-      "/src/assets/experiences/11.jpg",
-      "/src/assets/experiences/12.jpg",
-      "/src/assets/experiences/13.jpg"
+      img1,
+      img2,
+      img3,
+      img4,
+      img5,
+      img6,
+      img7,
+      img8,
+      img9,
+      img10,
+      img11,
+      img12,
+      img13,
     ]
   };
 

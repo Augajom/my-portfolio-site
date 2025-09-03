@@ -5,6 +5,10 @@ import { useTranslation } from "react-i18next";
 //icon
 import { HiArrowDown } from "react-icons/hi";
 
+//image
+import highschool from "../../assets/highschool.png";
+import university from "../../assets/university.jpg";
+
 function EducationTimeline() {
 
   const { t } = useTranslation();
@@ -15,14 +19,14 @@ function EducationTimeline() {
       lastyear: "2020",
       edu_institution : t("about.edu.highschool"),
       description: t("about.edu.highschool_desc"),
-      img: "/src/assets/highschool.png"
+      img: highschool
     },
     {
       firstyear: "2021",
       lastyear: t("about.edu.present"),
       edu_institution : t("about.edu.university"),
       description: t("about.edu.university_desc"),
-      img: "/src/assets/university.jpg"
+      img: university
     },
   ];
 

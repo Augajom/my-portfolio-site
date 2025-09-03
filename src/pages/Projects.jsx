@@ -3,6 +3,15 @@ import { motion } from 'framer-motion'
 import { useTranslation } from "react-i18next";
 import { FaYoutube } from "react-icons/fa";
 
+//image
+import img1 from "../assets/projects/1.png"
+import img2 from "../assets/projects/2.png"
+import img3 from "../assets/projects/3.png"
+import img4 from "../assets/projects/4.png"
+import img5 from "../assets/projects/5.png"
+import img6 from "../assets/projects/6.png"
+import img7 from "../assets/projects/7.png"
+
 function Projects() {
   const { t } = useTranslation();
 
@@ -14,13 +23,13 @@ function Projects() {
 
   // img & video เก็บไว้ใน mapping (เพราะไม่ต้องแปล)
   const media = {
-    p1: { img: "/src/assets/projects/1.png", video: "https://youtu.be/H5nEBMcURt0" },
-    p2: { img: "/src/assets/projects/2.png", video: "https://youtu.be/RtTKnKYdfDw?si=VG6XTcAPnn3TVfKH" },
-    p3: { img: "/src/assets/projects/3.png", video: "https://youtu.be/FTlZHSAH0-Q?si=t_6kKYPGXuSp1Wtl" },
-    p4: { img: "/src/assets/projects/4.png", video: "https://youtu.be/bLke_rMmeRM?si=snq4zvZ0KJCsCGbK" },
-    p5: { img: "/src/assets/projects/5.png", video: "https://youtu.be/gZ8i-XTpJQ0?si=l-b-VTFPaiLVY9Wd" },
-    p6: { img: "/src/assets/projects/6.png", video: "https://youtu.be/SJgobDJiIF4" },
-    p7: { img: "/src/assets/projects/7.png", video: "https://youtu.be/SJgobDJiIF4" }
+    p1: { img: img1, video: "https://youtu.be/H5nEBMcURt0" },
+    p2: { img: img2, video: "https://youtu.be/RtTKnKYdfDw?si=VG6XTcAPnn3TVfKH" },
+    p3: { img: img3, video: "https://youtu.be/FTlZHSAH0-Q?si=t_6kKYPGXuSp1Wtl" },
+    p4: { img: img4, video: "https://youtu.be/bLke_rMmeRM?si=snq4zvZ0KJCsCGbK" },
+    p5: { img: img5, video: "https://youtu.be/gZ8i-XTpJQ0?si=l-b-VTFPaiLVY9Wd" },
+    p6: { img: img6, video: "https://youtu.be/SJgobDJiIF4" },
+    p7: { img: img7, video: "https://youtu.be/SJgobDJiIF4" }
   };
 
   return (

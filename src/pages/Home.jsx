@@ -6,6 +6,9 @@ import { RiInstagramFill } from "react-icons/ri";
 import { SiGmail } from "react-icons/si";
 import { useTranslation } from "react-i18next";
 
+//image
+import profile from "../assets/profile.jpg"
+
 function Home() {
   const { t } = useTranslation();
 
@@ -21,7 +24,7 @@ function Home() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <img src="/src/assets/profile.jpg" alt="" className="w-120 h-120 md:w-140 md:h-140 rounded-full object-cover"/>
+            <img src={profile} alt="" className="w-120 h-120 md:w-140 md:h-140 rounded-full object-cover"/>
           </motion.div>
 
           {/* Text */}
