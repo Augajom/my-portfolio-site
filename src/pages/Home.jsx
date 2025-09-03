@@ -13,32 +13,45 @@ function Home() {
   const { t } = useTranslation();
 
   return (
-    <section id='home' className='flex justify-center bg-black p-4 mt-23 scroll-mt-23'>
-      <div className="container max-w-6xl w-full bg-black">
-        <div className="grid grid-cols-1 lg:grid-cols-2 h-full gap-20">
+    <section id='home' className='min-h-screen flex justify-center bg-black p-4 mt-20 scroll-mt-23 w-full overflow-x-hidden'>
+      <div className="max-w-6xl w-full px-4 sm:px-6 lg:px-8 bg-black">
+        <div className="grid grid-cols-1 lg:grid-cols-2 h-full md:gap-8 lg:gap-20">
           
           {/* Profile */}
           <motion.div 
-            className="flex justify-center items-center"
+            className="flex justify-center items-center order-1 lg:order-1 mb-6 lg:mb-0"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <img src={profile} alt="" className="w-120 h-120 md:w-140 md:h-140 rounded-full object-cover"/>
+            <img
+              src={profile}
+              alt="Profile"
+              className="
+                w-60 h600
+                sm:w-68 sm:h-68 
+                md:w-80 md:h-80
+                lg:w-100 lg:h-100
+                rounded-full
+                object-cover
+                max-w-full
+              "
+            />
           </motion.div>
 
           {/* Text */}
           <motion.div 
-            className="text-white my-auto mr-4 flex flex-col items-center text-center lg:block lg:text-left"
+            className="text-white flex flex-col items-center text-center lg:items-start lg:text-left lg:my-auto order-2 lg:order-2 space-y-4 lg:space-y-6"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
           >
-            <div className="flex">
-              <p className='text-5xl mb-4 font-bold md:text-6xl'>{t("home.hi")}</p>
-              <p className='text-5xl text-orange-500 mb-4 ml-2 font-bold md:text-6xl'>{t("home.name")}</p>
+            <div className="flex flex-wrap justify-center lg:justify-start">
+              <p className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold'>{t("home.hi")}</p>
+              <p className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-orange-500 ml-2 font-bold'>{t("home.name")}</p>
             </div>
-            <div className="flex text-3xl mb-4 font-bold lg:text-4xl">
+            
+            <div className="flex flex-wrap justify-center lg:justify-start text-2xl sm:text-3xl lg:text-4xl font-bold">
               <p>{t("home.iam")}&nbsp;</p>
               <span className="text-orange-500">
                 <Typewriter
@@ -52,20 +65,21 @@ function Home() {
                 />
               </span>
             </div>
-            <p className='text-sm mb-4 font-bold'>{t("home.desc")}</p>
             
-            <div className="contact flex gap-2">
-              <a href="https://github.com/Augajom" target='_blank' rel="noopener noreferrer" className="group border border-orange-500 w-14 h-14 rounded-full flex justify-center items-center hover:bg-orange-500 hover:w-16 hover:h-16 cursor-pointer transition-all duration-300">
-                  <FaGithub className="size-6 text-orange-500 group-hover:text-black transition-all duration-300" />
+            <p className='text-sm sm:text-base font-bold px-4 lg:px-0 max-w-md lg:max-w-none'>{t("home.desc")}</p>
+            
+            <div className="contact flex gap-3 flex-wrap justify-center lg:justify-start">
+              <a href="https://github.com/Augajom" target='_blank' rel="noopener noreferrer" className="group border border-orange-500 w-12 h-12 sm:w-14 sm:h-14 rounded-full flex justify-center items-center hover:bg-orange-500 hover:scale-110 cursor-pointer transition-all duration-300">
+                  <FaGithub className="text-lg sm:text-xl text-orange-500 group-hover:text-black transition-all duration-300" />
               </a>
-              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=suphamethee.au@gmail.com" target='_blank' rel="noopener noreferrer" className="group border border-orange-500 w-14 h-14 rounded-full flex justify-center items-center hover:bg-orange-500 hover:w-16 hover:h-16 cursor-pointer transition-all duration-300">
-                  <SiGmail className="size-6 text-orange-500 group-hover:text-black transition-all duration-300" />
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=suphamethee.au@gmail.com" target='_blank' rel="noopener noreferrer" className="group border border-orange-500 w-12 h-12 sm:w-14 sm:h-14 rounded-full flex justify-center items-center hover:bg-orange-500 hover:scale-110 cursor-pointer transition-all duration-300">
+                  <SiGmail className="text-lg sm:text-xl text-orange-500 group-hover:text-black transition-all duration-300" />
               </a>
-              <a href="https://www.facebook.com/suphamethee.au/" target='_blank' rel="noopener noreferrer" className="group border border-orange-500 w-14 h-14 rounded-full flex justify-center items-center hover:bg-orange-500 hover:w-16 hover:h-16 cursor-pointer transition-all duration-300">
-                  <FaFacebook className="size-6 text-orange-500 group-hover:text-black transition-all duration-300" />
+              <a href="https://www.facebook.com/suphamethee.au/" target='_blank' rel="noopener noreferrer" className="group border border-orange-500 w-12 h-12 sm:w-14 sm:h-14 rounded-full flex justify-center items-center hover:bg-orange-500 hover:scale-110 cursor-pointer transition-all duration-300">
+                  <FaFacebook className="text-lg sm:text-xl text-orange-500 group-hover:text-black transition-all duration-300" />
               </a>
-              <a href="https://www.instagram.com/sp_rea1s/" target='_blank' rel="noopener noreferrer" className="group border border-orange-500 w-14 h-14 rounded-full flex justify-center items-center hover:bg-orange-500 hover:w-16 hover:h-16 cursor-pointer transition-all duration-300">
-                  <RiInstagramFill className="size-6 text-orange-500 group-hover:text-black transition-all duration-300" />
+              <a href="https://www.instagram.com/sp_rea1s/" target='_blank' rel="noopener noreferrer" className="group border border-orange-500 w-12 h-12 sm:w-14 sm:h-14 rounded-full flex justify-center items-center hover:bg-orange-500 hover:scale-110 cursor-pointer transition-all duration-300">
+                  <RiInstagramFill className="text-lg sm:text-xl text-orange-500 group-hover:text-black transition-all duration-300" />
               </a>
             </div>
           </motion.div>

@@ -9,15 +9,15 @@ function AboutIntro() {
         {t("about.intro.title")}
       </h1>
 
-      <p className="text-xl font-semibold text-white mb-2 md:text-2xl">
+      <p className="text-sm md:text-xl font-semibold text-white mb-2 md:text-2xl">
         {t("about.intro.greeting")} <span className="text-orange-500">{t("about.intro.name")}</span>
       </p>
 
-      <p className="text-xl text-white/90 mb-2 md:text-2xl">
+      <p className="text-sm md:text-xl text-white/90 mb-2 md:text-2xl" style={{whiteSpace: "pre-line"}}>
         {t("about.intro.study")}
       </p>
 
-      <p className="text-xl text-white/90 mb-2 md:text-2xl">
+      <p className="text-sm md:text-xl text-white/90 mb-2 md:text-2xl">
         {t("about.intro.internship")}
       </p>
 

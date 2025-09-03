@@ -29,7 +29,7 @@ function Interests() {
   return (
      <section className="bg-black text-white py-16" id="interest">
       <div className="container max-w-6xl mx-auto px-4">
-        <h2 className="text-5xl font-extrabold text-orange-500 mb-10 text-center">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-orange-500 mb-10 text-center">
           {t("about.interests.header")}
         </h2>
 

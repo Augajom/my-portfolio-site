@@ -39,7 +39,7 @@ function Projects() {
         <div className='text-center mb-10'>
           <motion.div className="pt-10 inline-block">
             <motion.h1
-              className="text-8xl text-orange-500 font-extrabold text-shadow-sm text-shadow-white"
+              className="text-6xl md:text-8xl text-orange-500 font-extrabold text-shadow-sm text-shadow-white"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1 }}

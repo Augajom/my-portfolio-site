@@ -32,7 +32,7 @@ function EducationTimeline() {
 
   return (
     <div id="Education" className="mt-10">
-      <h1 className="text-5xl font-bold text-orange-500 mb-6">{t("about.edu.header")}</h1>
+      <h1 className="text-4xl md:text-5xl font-bold text-orange-500 mb-6">{t("about.edu.header")}</h1>
       <section className="bg-black w-full">
       {timelineData.map((item, index) => (
         <motion.div
