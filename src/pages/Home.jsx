@@ -66,7 +66,7 @@ function Home() {
               </span>
             </div>
             
-            <p className='text-sm sm:text-base font-bold px-4 lg:px-0 max-w-md lg:max-w-none'>{t("home.desc")}</p>
+            <p className='text-sm sm:text-base font-bold px-4 lg:px-0 max-w-md lg:max-w-none' style={{whiteSpace: "pre-line"}}>{t("home.desc")}</p>
             
             <div className="contact flex gap-3 flex-wrap justify-center lg:justify-start">
               <a href="https://github.com/Augajom" target='_blank' rel="noopener noreferrer" className="group border border-orange-500 w-12 h-12 sm:w-14 sm:h-14 rounded-full flex justify-center items-center hover:bg-orange-500 hover:scale-110 cursor-pointer transition-all duration-300">

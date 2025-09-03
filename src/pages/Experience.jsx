@@ -34,6 +34,7 @@ function Experience() {
   const { t } = useTranslation();
   const [lightboxOpen, setLightboxOpen] = useState(false)
   const [currentIndex, setCurrentIndex] = useState(0)
+  
 
   // ดึงข้อมูลจาก i18n
   const experiences = t("experience.items", { returnObjects: true });
@@ -59,7 +60,7 @@ function Experience() {
   };
 
   return (
-    <section id='experience' className='min-h-screen flex justify-center bg-black p-4 scroll-mt-24'>
+    <section id='experience' className='min-h-screen flex justify-center bg-black px-4 py-8 scroll-mt-24'>
       <div className="container max-w-6xl w-full h-full bg-black text-white text-center">
 
         {/* Header */}
@@ -84,13 +85,13 @@ function Experience() {
         </motion.div>
 
         {/* Experiences */}
-        <div className="flex flex-col gap-16 mt-20">
+        <div className="flex flex-col gap-8 md:gap-16 mt-10 md:mt-20">
           {expKeys.map((key, idx) => {
             const exp = experiences[key];
             const images = media[key] || [];
 
             return (
-              <div key={idx} className="bg-gray-900 p-6 rounded-xl flex flex-col gap-6">
+              <div key={idx} className="bg-gray-900 p-4 md:p-6 rounded-xl flex flex-col gap-4 md:gap-6">
 
                 {/* Slider */}
                 <div className="w-full cursor-pointer">
@@ -99,29 +100,58 @@ function Experience() {
                     spaceBetween={10}
                     slidesPerView={1}
                     autoplay={{ delay: 5000 }}
-                    pagination={{ clickable: true }}
-                    navigation
+                    pagination={{ 
+                      clickable: true,
+                      dynamicBullets: true
+                    }}
+                    navigation={{
+                      enabled: true,
+                    }}
                     loop
-                    className='custom-swiper'
+                    className='custom-swiper w-full'
+                    style={{
+                      '--swiper-navigation-color': '#f97316',
+                      '--swiper-pagination-color': '#f97316',
+                    }}
                   >
                     {images.map((img, i) => (
                       <SwiperSlide key={i}>
-                        <img
-                          src={img}
-                          alt={`${exp.title} ${i}`}
-                          className="rounded-lg w-full h-128 object-cover"
-                          onClick={() => { setCurrentIndex(i); setLightboxOpen(true) }}
-                        />
-                      </SwiperSlide>
+                          <div className="relative group">
+                            <img
+                              src={img}
+                              alt={`${exp.title} ${i}`}
+                              className="rounded-lg w-full h-64 sm:h-80 md:h-96 lg:h-128 object-cover transition-transform duration-300 group-hover:scale-105"
+                              onClick={() => {
+                                if (window.innerWidth >= 768) {
+                                  setCurrentIndex(i)
+                                  setLightboxOpen(true)
+                                }
+                              }}
+                              loading="lazy"
+                            />
+
+                            <div className="absolute inset-0 bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 rounded-lg flex items-center justify-center opacity-0 group-hover:opacity-100 pointer-events-none">
+                              <div className="bg-white bg-opacity-90 px-3 py-2 rounded-full transform scale-90 group-hover:scale-100 transition-transform duration-300">
+                                <span className="text-black text-sm font-medium">🔍 ดูเต็มจอ</span>
+                              </div>
+                            </div>
+                          </div>
+                        </SwiperSlide>
                     ))}
                   </Swiper>
                 </div>
 
                 {/* Description */}
-                <div className="w-full text-white flex flex-col justify-center gap-4">
-                  <h2 className="text-3xl font-bold" style={{ whiteSpace: "pre-line" }}>{exp.title}</h2>
-                  <h3 className="text-xl text-orange-500">{exp.company} | {exp.period}</h3>
-                  <p className="text-gray-200" style={{whiteSpace: "pre-line"}}>{exp.description}</p>
+                <div className="w-full text-white flex flex-col justify-center gap-2 md:gap-4 text-center">
+                  <h2 className="text-xl sm:text-2xl md:text-3xl font-bold leading-relaxed" style={{ whiteSpace: "pre-line" }}>
+                    {exp.title}
+                  </h2>
+                  <h3 className="text-sm sm:text-lg md:text-xl text-orange-500 font-medium">
+                    {exp.company} | {exp.period}
+                  </h3>
+                  <p className="text-sm sm:text-base md:text-lg text-gray-200 leading-relaxed" style={{whiteSpace: "pre-line"}}>
+                    {exp.description}
+                  </p>
                 </div>
 
               </div>
