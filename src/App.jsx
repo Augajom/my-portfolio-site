@@ -2,7 +2,7 @@ import './App.css'
 import './i18n';
 
 // Components
-import Navbar from './components/navbar.jsx'
+import Navbar from './components/Navbar.jsx'
 import Home from './pages/Home.jsx'
 import About from "./pages/About";
 import Skills from './pages/Skills.jsx';
