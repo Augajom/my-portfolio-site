@@ -1,0 +1,43 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+/* Swiper */
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev {
+  color: black; /* ส้ม */
+}
+
+.custom-swiper .swiper-pagination-bullet {
+  background-color: gray; /* ส้ม */
+}
+
+.custom-swiper .swiper-pagination-bullet-active {
+  background-color: black; /* ขาว */
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background-color: #ff6900;
+  transform-origin: 0%;
+  z-index: 11;
+}
+
+.cursor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ff6900;
+  z-index: 1000;
+}
