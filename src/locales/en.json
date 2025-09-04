@@ -15,7 +15,7 @@
         "desc": "Aspiring Fullstack Developer Intern passionate about learning new technologies, growing my skills, and contributing to meaningful projects"
     },
     "about": {
-        "title": "About Me",
+        "header": "About Me",
         "intro": {
         "title": "Introduction",
         "greeting": "Hi! My name is",
@@ -121,7 +121,10 @@
             "items": {
             "Figma": { "title": "Figma", "level": "Advanced" },
             "Photoshop": { "title": "Photoshop", "level": "Advanced" },
-            "Canva": { "title": "Canva", "level": "Expert" }
+            "Canva": { "title": "Canva", "level": "Expert" },
+            "Flutter": { "title": "Flutter", "level": "Elementary" },
+            "Dart": { "title": "Dart", "level": "Elementary" },
+            "Premiere Pro": { "title": "Premiere Pro", "level": "Intermediate" }
             }
         }
         },
@@ -184,7 +187,7 @@
       "desc": "888/213 Siripassorn Village, Bang Phra Subdistrict, Si Racha District, Chonburi 20110, Thailand"
     },
     "email": {
-      "title": "Email Me",
+      "title": "Email",
       "desc": "suphamethee.au@gmail.com\n6531501120@lamduan.mfu.ac.th"
     },
     "phone": {

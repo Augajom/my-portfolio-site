@@ -28,7 +28,7 @@ function Backend() {
       className="bg-gray-900 border border-orange-500 rounded-xl p-6 flex flex-col items-center hover:scale-105 transform transition-all duration-300"
       initial={{ opacity: 0, x: 50 }}
       whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.6, delay: idx * 0.2 }}
+      transition={{ duration: 0.3, delay: idx * 0.1 }}
       viewport={{ once: true }}
     >
       <div className="text-orange-500 mb-4">{item.icon}</div>

@@ -57,7 +57,7 @@ function Tools() {
               className="bg-gray-900 border border-orange-500 rounded-xl p-6 flex flex-col items-center hover:scale-105 transform transition-all duration-300"
               initial={{ opacity: 0, rotate: -15, scale: 0.8 }}
               whileInView={{ opacity: 1, rotate: 0, scale: 1 }}
-              transition={{ duration: 0.8, ease: "easeOut", delay: idx * 0.2 }}
+              transition={{ duration: 0.3, ease: "easeOut", delay: idx * 0.1 }}
               viewport={{ once: true }}
             >
               <div className="text-orange-500 mb-4">{iconsMap[key]}</div>

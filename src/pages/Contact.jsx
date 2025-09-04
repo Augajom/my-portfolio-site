@@ -28,7 +28,10 @@ function Contact() {
         {/* Header */}
         <motion.div className="pt-10 inline-block">
           <motion.h1
-            className="text-6xl md:text-8xl text-orange-500 font-extrabold text-shadow-sm text-shadow-white"
+            className="text-6xl md:text-8xl font-extrabold 
+                      bg-gradient-to-r from-orange-500 via-yellow-400 to-red-600 
+                      bg-clip-text text-transparent 
+                      drop-shadow-[0_0_15px_rgba(255,140,0,0.6)]"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}

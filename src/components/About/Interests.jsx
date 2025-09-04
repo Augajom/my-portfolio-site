@@ -41,7 +41,7 @@ function Interests() {
               className="bg-gray-900 border border-orange-500 rounded-xl p-6 flex flex-col items-center hover:scale-105 transform transition-all duration-300"
               initial={{ opacity: 0, rotateX: 90 }}
               whileInView={{ opacity: 1, rotateX: 0 }}
-              transition={{ duration: 0.8, delay: idx * 0.2, ease: "easeOut" }}
+              transition={{ duration: 0.3, delay: idx * 0.1, ease: "easeOut" }}
               viewport={{ once: true }}
               style={{ transformPerspective: "1000px" }}
             >

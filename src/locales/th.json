@@ -15,7 +15,7 @@
     "desc": "กำลังฝึกฝนเพื่อเป็น Fullstack Developer ที่มุ่งมั่นเรียนรู้เทคโนโลยีใหม่ๆ และพัฒนาทักษะของตนเอง พร้อมมีส่วนร่วมในโปรเจ็กต์ที่มีคุณค่า"
   },
   "about": {
-    "title": "เกี่ยวกับฉัน",
+    "header": "เกี่ยวกับฉัน",
     "intro": {
       "title": "แนะนำตัว",
       "greeting": "สวัสดีครับ ผมชื่อ",
@@ -120,7 +120,10 @@
     "items": {
       "Figma": { "title": "Figma", "level": "ขั้นสูง" },
       "Photoshop": { "title": "Photoshop", "level": "ขั้นสูง" },
-      "Canva": { "title": "Canva", "level": "เชี่ยวชาญมาก" }
+      "Canva": { "title": "Canva", "level": "เชี่ยวชาญมาก" },
+      "Flutter": { "title": "Flutter", "level": "พื้นฐาน" },
+      "Dart": { "title": "Dart", "level": "พื้นฐาน" },
+      "Premiere Pro": { "title": "Premiere Pro", "level": "ระดับกลาง" }
     }
   }
 },
@@ -133,12 +136,12 @@
                     "tech": ["html5"]
                 },
                 "p2": {
-                    "title": "โปรเจกต์ CSS แรก",
+                    "title": "โปรเจกต์แรกที่ใช้ CSS",
                     "description": "โปรเจกต์เว็บแรกจองผม สร้างหน้าเข้าสู่ระบบ/สมัครสมาชิกอย่างง่ายเพื่อฝึกทักษะด้าน Front-end",
                     "tech": ["html5", "CSS"]
                 },
                 "p3": {
-                    "title": "โปรเจกต์ JavaScript แรก",
+                    "title": "โปรเจกต์แรกที่ใช้ JavaScript",
                     "description": "สร้างเครื่องคิดเลขอย่างง่ายเพื่อฝึกพื้นฐาน JavaScript และการจัดการ DOM",
                     "tech": ["html5", "CSS", "Javascript", "DOM"]
                 },
