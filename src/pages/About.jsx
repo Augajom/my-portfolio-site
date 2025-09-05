@@ -40,6 +40,15 @@ function About() {
 
             <div className="grid grid-cols-1 lg:grid-cols-1 h-full gap-6 mt-10">
                 <AboutIntro />
+                <div className="btn">
+                  <button><a href="/my-portfolio-site/resume_suphamethee.pdf" target='_blank' rel="noopener noreferrer"
+                  download
+                  className="
+                  border border-orange-500 p-4 bg-orange-500 text-white font-extrabold text-2xl rounded-full flex justify-center items-center 
+                  hover:bg-white hover:text-orange-500 hover:scale-110 cursor-pointer transition-all duration-300">
+                      {t("about.resume")}
+                  </a></button>
+                </div>
                 <EducationTimeline />
                 <Interests />
             </div>

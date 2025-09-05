@@ -16,11 +16,12 @@
     },
     "about": {
         "header": "About Me",
+        "resume": "Dowload Resume",
         "intro": {
         "title": "Introduction",
         "greeting": "Hi! My name is",
         "name" : "Suphamethee Intharalib (Au)",
-        "study": "I am currently studying Computer Engineering \nat Mae Fah Luang University.",
+        "study": "I am currently studying Computer Engineering at \nMae Fah Luang University.",
         "internship": "I am seeking an internship as a Fullstack Developer.",
         "goal": "The goal of this internship is to gain hands-on experience, understand real-world workflows, and improve my technical skills."
         },
@@ -175,7 +176,7 @@
                 "title": "Web Developer \nThe Center for Academic Services",
                 "company": "Mae Fah Luang University",
                 "period": "Feb 2025 - Jul 2025",
-                "description": "Worked as a Web Developer (Fullstack Developer) at the Center for Academic Services, Mae Fah Luang University. Designed and developed a complete web application from scratch, including multi-form and multi-step forms, user role management, workflow approvals, dashboards, and data reporting. Implemented responsive UI/UX using Vue.js, HTML, CSS, and Bootstrap, and integrated backend functionalities with Node.js, Express, JWT, OAuth2, \nand MySQL, through deployment."
+                "description": "Worked as a Fullstack Web Developer at the Center for Academic Services, Mae Fah Luang University. Designed and developed a comprehensive web application from scratch, implementing: \n\n• Role-Based Access Control (RBAC) for four main roles: Project Head, Dean, Admin, and Board, with page-level and approval permissions. \n• Google OAuth login with session management, email verification, and role-based access control. \n• Multi-page project proposal forms with AutoSave and file attachment support (PDF, Word, etc.) stored on the server. \n• Cost-benefit analysis forms calculating total cost, profit, per capita, and efficiency percentages automatically.  \n• Multi-step workflow approval system reflecting current status and rejection reasons for each role. \n• Timeline tracking showing approval history with approver names, dates, and status, visible according to user roles. \n• Export functionality for PDF and Excel reports for committee submission and record-keeping. \n• User management with bulk import from Excel, including add, edit, delete, and permission assignment. \n• Dashboard displaying project statuses, filters by name/status/department, and overall revenue and expenses. \n• Automated proposal submission opening/closing based on schedule (node-cron). \n• Deployment using Docker, Docker Compose, Nginx, Linux, with reverse proxy configuration. \n• Real-time user control and permission guarding, including page/feature access, URL protection, and role-based menu visibility (middlewares). \n• Automated email notifications using Nodemailer. \n\nImplemented responsive UI/UX using Vue.js, HTML, CSS, and Bootstrap, and integrated backend functionalities with Node.js, Express, OAuth2, and MySQL."
                 }
             }
             },

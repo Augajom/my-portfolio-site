@@ -152,7 +152,7 @@ function Experience() {
                   <h3 className="text-sm sm:text-lg md:text-xl text-orange-500 font-medium">
                     {exp.company} | {exp.period}
                   </h3>
-                  <p className="text-sm sm:text-base md:text-lg text-gray-200 leading-relaxed" style={{whiteSpace: "pre-line"}}>
+                  <p className="text-sm text-left sm:text-base md:text-lg text-gray-200 leading-relaxed" style={{whiteSpace: "pre-line"}}>
                     {exp.description}
                   </p>
                 </div>
