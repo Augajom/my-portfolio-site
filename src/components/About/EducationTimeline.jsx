@@ -15,14 +15,14 @@ function EducationTimeline() {
 
   const timelineData = [
     {
-      firstyear: "2018",
-      lastyear: "2020",
+      firstyear: "2019",
+      lastyear: "2022",
       edu_institution : t("about.edu.highschool"),
       description: t("about.edu.highschool_desc"),
       img: highschool
     },
     {
-      firstyear: "2021",
+      firstyear: "2022",
       lastyear: t("about.edu.present"),
       edu_institution : t("about.edu.university"),
       description: t("about.edu.university_desc"),
