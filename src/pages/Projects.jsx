@@ -27,7 +27,7 @@ function Projects() {
     p3: { img: img3, video: "https://youtu.be/FTlZHSAH0-Q?si=t_6kKYPGXuSp1Wtl" },
     p4: { img: img4, video: "https://youtu.be/bLke_rMmeRM?si=snq4zvZ0KJCsCGbK" },
     p5: { img: img5, video: "https://youtu.be/gZ8i-XTpJQ0?si=l-b-VTFPaiLVY9Wd" },
-    p6: { img: img6 },
+    p6: { img: img6, video: "https://youtu.be/GuFJY_pf-BY" },
   };
 
   return (
@@ -37,7 +37,7 @@ function Projects() {
         <div className='text-center mb-10'>
           <motion.div className="pt-10 inline-block">
             <motion.h1
-                        className="text-6xl md:text-8xl font-extrabold 
+                        className="text-6xl md:text-8xl font-extrabold h-26
                                   bg-gradient-to-r from-orange-500 via-yellow-400 to-red-600 
                                   bg-clip-text text-transparent
                                   drop-shadow-[0_0_15px_rgba(255,140,0,0.6)]"

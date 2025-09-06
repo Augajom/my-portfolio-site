@@ -158,8 +158,8 @@
                 "tech": ["html5", "CSS", "Javascript", "JSON", "Bootstarp5"]
                 },
                 "p6": {
-                "title": "Room Reservation System",
-                "description": "Team project developing a web-based room reservation system with secure login, approval workflow, and admin dashboard for managing reservations.",
+                "title": "Borrow a Book System",
+                "description": "Team project developing a web-based borrow a book system with secure login, approval workflow, and admin dashboard for managing borrow.",
                 "tech": ["html5", "CSS", "Javascript", "Node.js", "Express.js", "JWT", "MySQL"]
                 }
             }
