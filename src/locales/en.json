@@ -161,16 +161,6 @@
                 "title": "Room Reservation System",
                 "description": "Team project developing a web-based room reservation system with secure login, approval workflow, and admin dashboard for managing reservations.",
                 "tech": ["html5", "CSS", "Javascript", "Node.js", "Express.js", "JWT", "MySQL"]
-                },
-                "p7": {
-                "title": "Room Reservation System Mobile",
-                "description": "My role in this project was to develop all the history pages, including database integration, API implementation, and UI/UX design.",
-                "tech": ["Flutter", "Dart", "Node.js", "Express.js", "JWT", "MySQL"]
-                },
-                "p8": {
-                "title": "Room Reservation System Mobile \n(Client Project)",
-                "description": "Designed and implemented a room booking system for a client. Features include booking by time slot, approval workflow, admin dashboard, and authentication with password hashing.",
-                "tech": ["Flutter", "Dart", "Node.js", "Express.js", "JWT", "MySQL"]
                 }
             }
          },

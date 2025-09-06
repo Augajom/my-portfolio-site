@@ -10,8 +10,6 @@ import img3 from "../assets/projects/3.png"
 import img4 from "../assets/projects/4.png"
 import img5 from "../assets/projects/5.png"
 import img6 from "../assets/projects/6.png"
-import img7 from "../assets/projects/7.png"
-import img8 from "../assets/projects/8.png"
 
 function Projects() {
   const { t } = useTranslation();
@@ -30,8 +28,6 @@ function Projects() {
     p4: { img: img4, video: "https://youtu.be/bLke_rMmeRM?si=snq4zvZ0KJCsCGbK" },
     p5: { img: img5, video: "https://youtu.be/gZ8i-XTpJQ0?si=l-b-VTFPaiLVY9Wd" },
     p6: { img: img6 },
-    p7: { img: img7, video: "https://youtu.be/GNsFOdBIhBg" },
-    p8: { img: img8, video: "https://youtu.be/SJgobDJiIF4" }
   };
 
   return (
