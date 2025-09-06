@@ -36,7 +36,6 @@ function Tools() {
   const renderCategory = (category) => {
     const items = Object.keys(t(`skills.tools.items`, { returnObjects: true }))
       .filter(key => {
-        // filter items by category mapping
         if (category === "vControl") return ["Git","GitHub"].includes(key);
         if (category === "container") return ["Docker","Docker Compose","Linux","Window","SSH","GitHub Actions"].includes(key);
         if (category === "ide") return ["VSCode","Webstorm"].includes(key);

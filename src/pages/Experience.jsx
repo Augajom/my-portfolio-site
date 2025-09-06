@@ -40,7 +40,7 @@ function Experience() {
   const experiences = t("experience.items", { returnObjects: true });
   const expKeys = Object.keys(experiences);
 
-  // รูปภาพ (ไม่ต้องแปล)
+  // รูปภาพ
   const media = {
     exp1: [
       img1,

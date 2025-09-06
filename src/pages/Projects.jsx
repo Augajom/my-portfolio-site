@@ -21,7 +21,7 @@ function Projects() {
   // map key => object
   const projectKeys = Object.keys(projects);
 
-  // img & video เก็บไว้ใน mapping (เพราะไม่ต้องแปล)
+  // img & video
   const media = {
     p1: { img: img1, video: "https://youtu.be/H5nEBMcURt0" },
     p2: { img: img2, video: "https://youtu.be/RtTKnKYdfDw?si=VG6XTcAPnn3TVfKH" },
