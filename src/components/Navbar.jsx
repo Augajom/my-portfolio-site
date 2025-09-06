@@ -83,7 +83,7 @@ function Navbar() {
         {/* Logo */}
         <div className="flex space-x-2 text-xl font-bold">
           <h1 className="tracking-wide">
-            {"SUPHAMTHEE".split("").map((ch, i) => (
+            {"SUPHAMETHEE".split("").map((ch, i) => (
               <motion.span
                 key={i}
                 className="inline-block text-orange-500 hover:text-white transition-colors duration-200 cursor-pointer"
