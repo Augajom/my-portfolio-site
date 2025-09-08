@@ -38,7 +38,7 @@ function Languages() {
                 >
                   <div className="text-orange-500 mb-4">{iconsMap[key]}</div>
                   <h3 className="text-xl font-bold">{t(`skills.languages.items.${key}.title`)}</h3>
-                  <h3 className="text-lg">{t(`skills.languages.items.${key}.level`)}</h3>
+                  <h3 className="text-lg" style={{whiteSpace: "pre-line"}}>{t(`skills.languages.items.${key}.level`)}</h3>
                 </motion.div>
               ))}
             </div>
