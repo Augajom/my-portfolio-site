@@ -127,7 +127,14 @@
             "Dart": { "title": "Dart", "level": "Elementary" },
             "Premiere Pro": { "title": "Premiere Pro", "level": "Intermediate" }
             }
-        }
+        },
+        "languages": {
+            "title": "Languages",
+             "items": {
+            "English": { "title": "English", "level": "Intermediate" },
+            "Thai": { "title": "Thai", "level": "Native" }
+            }
+            }
         },
         "projects": {
             "header": "Projects",

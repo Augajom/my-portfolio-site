@@ -8,6 +8,7 @@ import Backend from '../components/Skills/Backend'
 import Database from '../components/Skills/Database'
 import Tools from '../components/Skills/Tools'
 import Other from '../components/Skills/Other'
+import Languages from '../components/Skills/Languages';
 
 function Skills() {
 
@@ -47,6 +48,7 @@ function Skills() {
                 <Database />
                 <Tools />
                 <Other />
+                <Languages />
             </div>
 
         </div>
