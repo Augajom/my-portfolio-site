@@ -131,7 +131,7 @@
         "languages": {
             "title": "Languages",
              "items": {
-            "English": { "title": "English", "level": "Intermediate" },
+            "English": { "title": "English", "level": "Intermediate \n(Good reading, basic speaking/writing)" },
             "Thai": { "title": "Thai", "level": "Native" }
             }
             }
