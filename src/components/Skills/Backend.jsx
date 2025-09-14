@@ -1,5 +1,5 @@
-import React from 'react'
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 // icons
@@ -32,7 +32,9 @@ function Backend() {
       viewport={{ once: true }}
     >
       <div className="text-orange-500 mb-4">{item.icon}</div>
-      <h3 className="text-xl font-bold">{t(`skills.backend.items.${item.key}.title`)}</h3>
+      <h3 className="text-xl font-bold">
+        {t(`skills.backend.items.${item.key}.title`)}
+      </h3>
       <h3 className="text-lg">{t(`skills.backend.items.${item.key}.level`)}</h3>
     </motion.div>
   );
@@ -40,7 +42,6 @@ function Backend() {
   return (
     <section className="bg-black text-white py-16" id="backend">
       <div className="container max-w-6xl mx-auto px-4">
-
         <h2 className="text-5xl font-extrabold text-orange-500 mb-10 text-center">
           {t("skills.backend.title")}
         </h2>
@@ -60,7 +61,6 @@ function Backend() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 mb-12">
           {backend.authentication.map(renderSkill)}
         </div>
-
       </div>
     </section>
   );

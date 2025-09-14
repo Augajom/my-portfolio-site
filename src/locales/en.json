@@ -11,44 +11,50 @@
         "hi": "Hi, It's",
         "name": "Au",
         "iam": "I'm a",
-        "roles": ["Developer", "Web Designer", "Frontend Developer", "Backend Developer", "Fullstack Developer"],
+        "roles": [
+            "Developer",
+            "Web Designer",
+            "Frontend Developer",
+            "Backend Developer",
+            "Fullstack Developer"
+        ],
         "desc": "Aspiring Fullstack Developer Intern passionate about learning new technologies, growing my skills, and contributing to meaningful projects"
     },
     "about": {
         "header": "About Me",
         "resume": "Dowload Resume",
         "intro": {
-        "title": "Introduction",
-        "greeting": "Hi! My name is",
-        "name" : "Suphamethee Intharalib (Au)",
-        "study": "I am currently studying Computer Engineering at \nMae Fah Luang University.",
-        "internship": "I am seeking an internship as a Fullstack Developer.",
-        "goal": "The goal of this internship is to gain hands-on experience, understand real-world workflows, and improve my technical skills."
+            "title": "Introduction",
+            "greeting": "Hi! My name is",
+            "name": "Suphamethee Intharalib (Au)",
+            "study": "I am currently studying Computer Engineering at \nMae Fah Luang University.",
+            "internship": "I am seeking an internship as a Fullstack Developer.",
+            "goal": "The goal of this internship is to gain hands-on experience, understand real-world workflows, and improve my technical skills."
         },
         "edu": {
-        "header": "Education",
-        "highschool": "Sriracha High School",
-        "highschool_desc": "Science, Mathematics, and Computer Engineering Track",
-        "university": "Mae Fah Luang University",
-        "university_desc": "Computer Engineering",
-        "present": "Present"
+            "header": "Education",
+            "highschool": "Sriracha High School",
+            "highschool_desc": "Science, Mathematics, and Computer Engineering Track",
+            "university": "Mae Fah Luang University",
+            "university_desc": "Computer Engineering",
+            "present": "Present"
         },
         "interests": {
-        "header": "Interests & Soft Skills",
-        "web": "Web Development",
-        "ai": "AI & Machine Learning",
-        "opensource": "Open Source Contribution",
-        "competition": "Coding Competitions"
+            "header": "Interests & Soft Skills",
+            "web": "Web Development",
+            "ai": "AI & Machine Learning",
+            "opensource": "Open Source Contribution",
+            "competition": "Coding Competitions"
         },
         "skills": {
-        "teamwork": "Teamwork",
-        "teamwork_desc": "Collaborated on projects with 3-5 members",
-        "problem": "Problem Solving",
-        "problem_desc": "Quickly resolves unexpected problems",
-        "communication": "Communication",
-        "communication_desc": "Presented project results in class seminars",
-        "adapt": "Adaptability",
-        "adapt_desc": "Quickly learned new technologies for projects"
+            "teamwork": "Teamwork",
+            "teamwork_desc": "Collaborated on projects with 3-5 members",
+            "problem": "Problem Solving",
+            "problem_desc": "Quickly resolves unexpected problems",
+            "communication": "Communication",
+            "communication_desc": "Presented project results in class seminars",
+            "adapt": "Adaptability",
+            "adapt_desc": "Quickly learned new technologies for projects"
         }
     },
     "skills": {
@@ -60,17 +66,50 @@
             "html": "HTML / CSS / JS",
             "animation": "Animation / Interaction",
             "items": {
-            "Vue.js": { "title": "Vue.js", "level": "Intermediate" },
-            "React.js": { "title": "React.js", "level": "Intermediate" },
-            "Next.js": { "title": "Next.js", "level": "Elementary" },
-            "CSS": { "title": "CSS", "level": "Proficient" },
-            "Bootstrap": { "title": "Bootstrap", "level": "Advanced" },
-            "Tailwind": { "title": "Tailwind", "level": "Advanced" },
-            "HTML5": { "title": "HTML5", "level": "Proficient" },
-            "CSS3": { "title": "CSS3", "level": "Proficient" },
-            "JavaScript": { "title": "JavaScript (ES6+)", "level": "Advanced" },
-            "TypeScript": { "title": "TypeScript", "level": "Beginner" },
-            "Framer Motion": { "title": "Framer Motion", "level": "Elementary" }
+                "Vue.js": {
+                    "title": "Vue.js",
+                    "level": "Intermediate"
+                },
+                "React.js": {
+                    "title": "React.js",
+                    "level": "Intermediate"
+                },
+                "Next.js": {
+                    "title": "Next.js",
+                    "level": "Elementary"
+                },
+                "CSS": {
+                    "title": "CSS",
+                    "level": "Proficient"
+                },
+                "Bootstrap": {
+                    "title": "Bootstrap",
+                    "level": "Advanced"
+                },
+                "Tailwind": {
+                    "title": "Tailwind",
+                    "level": "Advanced"
+                },
+                "HTML5": {
+                    "title": "HTML5",
+                    "level": "Proficient"
+                },
+                "CSS3": {
+                    "title": "CSS3",
+                    "level": "Proficient"
+                },
+                "JavaScript": {
+                    "title": "JavaScript (ES6+)",
+                    "level": "Advanced"
+                },
+                "TypeScript": {
+                    "title": "TypeScript",
+                    "level": "Beginner"
+                },
+                "Framer Motion": {
+                    "title": "Framer Motion",
+                    "level": "Elementary"
+                }
             }
         },
         "backend": {
@@ -78,10 +117,22 @@
             "backend": "backend",
             "authentication": "Authentication / Authorization",
             "items": {
-            "Node.js": { "title": "Node.js", "level": "Advanced" },
-            "Express.js": { "title": "Express.js", "level": "Advanced" },
-            "Google OAuth2": { "title": "Google OAuth2", "level": "Elementary" },
-            "JWT": { "title": "JWT", "level": "Intermediate" }
+                "Node.js": {
+                    "title": "Node.js",
+                    "level": "Advanced"
+                },
+                "Express.js": {
+                    "title": "Express.js",
+                    "level": "Advanced"
+                },
+                "Google OAuth2": {
+                    "title": "Google OAuth2",
+                    "level": "Elementary"
+                },
+                "JWT": {
+                    "title": "JWT",
+                    "level": "Intermediate"
+                }
             }
         },
         "database": {
@@ -89,8 +140,14 @@
             "sql": "SQL",
             "nosql": "NoSQL",
             "items": {
-            "MySQL": { "title": "MySQL", "level": "Advanced" },
-            "MongoDB": { "title": "MongoDB", "level": "Beginner" }
+                "MySQL": {
+                    "title": "MySQL",
+                    "level": "Advanced"
+                },
+                "MongoDB": {
+                    "title": "MongoDB",
+                    "level": "Beginner"
+                }
             }
         },
         "tools": {
@@ -101,105 +158,196 @@
             "api": "API Testing",
             "deploy": "Deployment / Hosting",
             "items": {
-            "Git": { "title": "Git", "level": "Intermediate" },
-            "GitHub": { "title": "GitHub", "level": "Intermediate" },
-            "Docker": { "title": "Docker", "level": "Intermediate" },
-            "Docker Compose": { "title": "Docker Compose", "level": "Intermediate" },
-            "Linux": { "title": "Linux", "level": "Intermediate" },
-            "Window": { "title": "Window", "level": "Proficient" },
-            "SSH": { "title": "SSH", "level": "Intermediate" },
-            "GitHub Actions": { "title": "GitHub Actions", "level": "Beginner" },
-            "VSCode": { "title": "VSCode", "level": "Expert" },
-            "Webstorm": { "title": "Webstorm", "level": "Beginner" },
-            "Thunder Client": { "title": "Thunder Client", "level": "Advanced" },
-            "Postman": { "title": "Postman", "level": "Intermediate" },
-            "AWS": { "title": "AWS", "level": "Elementary" },
-            "Nginx": { "title": "Nginx", "level": "Elementary" }
+                "Git": {
+                    "title": "Git",
+                    "level": "Intermediate"
+                },
+                "GitHub": {
+                    "title": "GitHub",
+                    "level": "Intermediate"
+                },
+                "Docker": {
+                    "title": "Docker",
+                    "level": "Intermediate"
+                },
+                "Docker Compose": {
+                    "title": "Docker Compose",
+                    "level": "Intermediate"
+                },
+                "Linux": {
+                    "title": "Linux",
+                    "level": "Intermediate"
+                },
+                "Window": {
+                    "title": "Window",
+                    "level": "Proficient"
+                },
+                "SSH": {
+                    "title": "SSH",
+                    "level": "Intermediate"
+                },
+                "GitHub Actions": {
+                    "title": "GitHub Actions",
+                    "level": "Beginner"
+                },
+                "VSCode": {
+                    "title": "VSCode",
+                    "level": "Expert"
+                },
+                "Webstorm": {
+                    "title": "Webstorm",
+                    "level": "Beginner"
+                },
+                "Thunder Client": {
+                    "title": "Thunder Client",
+                    "level": "Advanced"
+                },
+                "Postman": {
+                    "title": "Postman",
+                    "level": "Intermediate"
+                },
+                "AWS": {
+                    "title": "AWS",
+                    "level": "Elementary"
+                },
+                "Nginx": {
+                    "title": "Nginx",
+                    "level": "Elementary"
+                }
             }
         },
         "other": {
             "title": "Design / Other",
             "items": {
-            "Figma": { "title": "Figma", "level": "Advanced" },
-            "Photoshop": { "title": "Photoshop", "level": "Advanced" },
-            "Canva": { "title": "Canva", "level": "Expert" },
-            "Flutter": { "title": "Flutter", "level": "Elementary" },
-            "Dart": { "title": "Dart", "level": "Elementary" },
-            "Premiere Pro": { "title": "Premiere Pro", "level": "Intermediate" }
+                "Figma": {
+                    "title": "Figma",
+                    "level": "Advanced"
+                },
+                "Photoshop": {
+                    "title": "Photoshop",
+                    "level": "Advanced"
+                },
+                "Canva": {
+                    "title": "Canva",
+                    "level": "Expert"
+                },
+                "Flutter": {
+                    "title": "Flutter",
+                    "level": "Elementary"
+                },
+                "Dart": {
+                    "title": "Dart",
+                    "level": "Elementary"
+                },
+                "Premiere Pro": {
+                    "title": "Premiere Pro",
+                    "level": "Intermediate"
+                }
             }
         },
         "languages": {
             "title": "Languages",
-             "items": {
-            "English": { "title": "English", "level": "Intermediate \n(Good reading, basic speaking/writing)" },
-            "Thai": { "title": "Thai", "level": "Native \n(Very Good reading, very good speaking/writing)" }
-            }
-            }
-        },
-        "projects": {
-            "header": "Projects",
             "items": {
-                "p1": {
-                "title": "First Project In My Life",
-                "description": "Developed a website for basic login, register system.",
-                "tech": ["html5"]
+                "English": {
+                    "title": "English",
+                    "level": "Intermediate \n(Good reading, basic speaking/writing)"
                 },
-                "p2": {
-                "title": "First CSS Project",
-                "description": "My first web project: created a simple login/register page to practice front-end skills.",
-                "tech": ["html5", "CSS"]
-                },
-                "p3": {
-                "title": "First JavaScript Project",
-                "description": "Built a simple calculator to practice JavaScript fundamentals and DOM manipulation.",
-                "tech": ["html5", "CSS", "Javascript", "DOM"]
-                },
-                "p4": {
-                "title": "First Array-Based Project",
-                "description": "Created a website that stores and manages data in an array, dynamically displaying content on the page.",
-                "tech": ["html5", "CSS", "Javascript"]
-                },
-                "p5": {
-                "title": "First JSON And Bootstrap Project",
-                "description": "Experimented with storing data in JSON and creating a responsive layout using Bootstrap for the first time.",
-                "tech": ["html5", "CSS", "Javascript", "JSON", "Bootstarp5"]
-                },
-                "p6": {
-                "title": "Borrow a Book System",
-                "description": "Team project developing a web-based borrow a book system with secure login, approval workflow, and admin dashboard for managing borrow.",
-                "tech": ["html5", "CSS", "Javascript", "Node.js", "Express.js", "JWT", "MySQL"]
+                "Thai": {
+                    "title": "Thai",
+                    "level": "Native \n(Very Good reading, very good speaking/writing)"
                 }
             }
-         },
-         "experience": {
-            "header": "Experience",
-            "items": {
-                "exp1": {
+        }
+    },
+    "projects": {
+        "header": "Projects",
+        "items": {
+            "p1": {
+                "title": "First Project In My Life",
+                "description": "Developed a website for basic login, register system.",
+                "tech": [
+                    "html5"
+                ]
+            },
+            "p2": {
+                "title": "First CSS Project",
+                "description": "My first web project: created a simple login/register page to practice front-end skills.",
+                "tech": [
+                    "html5",
+                    "CSS"
+                ]
+            },
+            "p3": {
+                "title": "First JavaScript Project",
+                "description": "Built a simple calculator to practice JavaScript fundamentals and DOM manipulation.",
+                "tech": [
+                    "html5",
+                    "CSS",
+                    "Javascript",
+                    "DOM"
+                ]
+            },
+            "p4": {
+                "title": "First Array-Based Project",
+                "description": "Created a website that stores and manages data in an array, dynamically displaying content on the page.",
+                "tech": [
+                    "html5",
+                    "CSS",
+                    "Javascript"
+                ]
+            },
+            "p5": {
+                "title": "First JSON And Bootstrap Project",
+                "description": "Experimented with storing data in JSON and creating a responsive layout using Bootstrap for the first time.",
+                "tech": [
+                    "html5",
+                    "CSS",
+                    "Javascript",
+                    "JSON",
+                    "Bootstarp5"
+                ]
+            },
+            "p6": {
+                "title": "Borrow a Book System",
+                "description": "Team project developing a web-based borrow a book system with secure login, approval workflow, and admin dashboard for managing borrow.",
+                "tech": [
+                    "html5",
+                    "CSS",
+                    "Javascript",
+                    "Node.js",
+                    "Express.js",
+                    "JWT",
+                    "MySQL"
+                ]
+            }
+        }
+    },
+    "experience": {
+        "header": "Experience",
+        "items": {
+            "exp1": {
                 "title": "Web Developer \nThe Center for Academic Services",
                 "company": "Mae Fah Luang University",
                 "period": "Feb 2025 - Jul 2025",
                 "description": "Worked as a Fullstack Web Developer at the Center for Academic Services, Mae Fah Luang University. Designed and developed a comprehensive web application from scratch, implementing: \n\n• Role-Based Access Control (RBAC) for four main roles: Project Head, Dean, Admin, and Board, with page-level and approval permissions. \n• Google OAuth login with session management, email verification, and role-based access control. \n• Multi-page project proposal forms with AutoSave and file attachment support (PDF, Word, etc.) stored on the server. \n• Cost-benefit analysis forms calculating total cost, profit, per capita, and efficiency percentages automatically.  \n• Multi-step workflow approval system reflecting current status and rejection reasons for each role. \n• Timeline tracking showing approval history with approver names, dates, and status, visible according to user roles. \n• Export functionality for PDF and Excel reports for committee submission and record-keeping. \n• User management with bulk import from Excel, including add, edit, delete, and permission assignment. \n• Dashboard displaying project statuses, filters by name/status/department, and overall revenue and expenses. \n• Automated proposal submission opening/closing based on schedule (node-cron). \n• Deployment using Docker, Docker Compose, Nginx, Linux, with reverse proxy configuration. \n• Real-time user control and permission guarding, including page/feature access, URL protection, and role-based menu visibility (middlewares). \n• Automated email notifications using Nodemailer. \n\nImplemented responsive UI/UX using Vue.js, HTML, CSS, and Bootstrap, and integrated backend functionalities with Node.js, Express, OAuth2, and MySQL."
-                }
             }
+        }
+    },
+    "contact": {
+        "header": "Contact Me",
+        "items": {
+            "address": {
+                "title": "Address",
+                "desc": "888/213 Siripassorn Village, Bang Phra Subdistrict, Si Racha District, Chonburi 20110, Thailand"
             },
-            "contact": {
-  "header": "Contact Me",
-  "items": {
-    "address": {
-      "title": "Address",
-      "desc": "888/213 Siripassorn Village, Bang Phra Subdistrict, Si Racha District, Chonburi 20110, Thailand"
-    },
-    "email": {
-      "title": "Email",
-      "desc": "suphamethee.au@gmail.com\n6531501120@lamduan.mfu.ac.th"
-    },
-    "phone": {
-      "title": "Call Now",
-      "desc": "+66 83 834 4340"
+            "email": {
+                "title": "Email",
+                "desc": "suphamethee.au@gmail.com\n6531501120@lamduan.mfu.ac.th"
+            },
+            "phone": {
+                "title": "Call Now",
+                "desc": "+66 83 834 4340"
+            }
+        }
     }
-  }
-}
-
-
-
 }

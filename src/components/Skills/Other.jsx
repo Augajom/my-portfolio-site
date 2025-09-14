@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 // icons
@@ -13,11 +13,11 @@ function Other() {
 
   // map icon ตาม key
   const iconsMap = {
-    "Figma": <FaFigma size={24} />,
-    "Photoshop": <DiPhotoshop size={24} />,
-    "Canva": <SiCanva size={24} />,
-    "Flutter": <FaFlutter size={24} />,
-    "Dart": <FaDartLang size={24} />,
+    Figma: <FaFigma size={24} />,
+    Photoshop: <DiPhotoshop size={24} />,
+    Canva: <SiCanva size={24} />,
+    Flutter: <FaFlutter size={24} />,
+    Dart: <FaDartLang size={24} />,
     "Premiere Pro": <SiAdobepremierepro size={24} />,
   };
 
@@ -37,12 +37,21 @@ function Other() {
               className="bg-gray-900 border border-orange-500 rounded-xl p-6 flex flex-col items-center hover:scale-105 transform transition-all duration-300"
               initial={{ opacity: 0, scale: 0.5 }}
               whileInView={{ opacity: 1, scale: 1 }}
-              transition={{ type: "spring", stiffness: 300, damping: 50, delay: idx * 0.1 }}
+              transition={{
+                type: "spring",
+                stiffness: 300,
+                damping: 50,
+                delay: idx * 0.1,
+              }}
               viewport={{ once: true }}
             >
               <div className="text-orange-500 mb-4">{iconsMap[key]}</div>
-              <h3 className="text-xl font-bold">{t(`skills.other.items.${key}.title`)}</h3>
-              <h3 className="text-lg">{t(`skills.other.items.${key}.level`)}</h3>
+              <h3 className="text-xl font-bold">
+                {t(`skills.other.items.${key}.title`)}
+              </h3>
+              <h3 className="text-lg">
+                {t(`skills.other.items.${key}.level`)}
+              </h3>
             </motion.div>
           ))}
         </div>

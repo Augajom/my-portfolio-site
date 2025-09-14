@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from 'react';
+import { React, useState, useEffect } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
@@ -25,10 +25,11 @@ function Navbar() {
       if (!start) start = timestamp;
       const progress = timestamp - start;
       const percentage = Math.min(progress / duration, 1);
-      
-      const easing = percentage < 0.5 
-        ? 2 * percentage * percentage 
-        : 1 - Math.pow(-2 * percentage + 2, 2) / 2;
+
+      const easing =
+        percentage < 0.5
+          ? 2 * percentage * percentage
+          : 1 - Math.pow(-2 * percentage + 2, 2) / 2;
 
       window.scrollTo(0, startPosition + distance * easing);
 
@@ -43,9 +44,9 @@ function Navbar() {
   const handleMenuClick = (section, e) => {
     e.preventDefault();
     setOpen(false);
-    
+
     const delay = open ? 200 : 0;
-    
+
     setTimeout(() => {
       smoothScrollTo(section);
     }, delay);
@@ -61,27 +62,27 @@ function Navbar() {
           }
         });
       },
-      { 
-        root: null, 
-        rootMargin: "-50% 0px -50% 0px", 
-        threshold: 0 
+      {
+        root: null,
+        rootMargin: "-50% 0px -50% 0px",
+        threshold: 0,
       }
     );
     sections.forEach((section) => section && observer.observe(section));
-    return () => sections.forEach((section) => section && observer.unobserve(section));
+    return () =>
+      sections.forEach((section) => section && observer.unobserve(section));
   }, [menu]);
 
   return (
-    <motion.nav 
+    <motion.nav
       className="fixed w-full bg-black z-50"
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
     >
       <div className="flex justify-between items-center text-white max-w-6xl mx-auto px-6 py-8">
-        
         {/* Logo */}
-        <div className="flex space-x-2 text-xl font-bold">
+        <div className="flex space-x-2 text-lg font-bold md:text-xl">
           <h1 className="tracking-wide">
             {"SUPHAMETHEE".split("").map((ch, i) => (
               <motion.span
@@ -112,7 +113,7 @@ function Navbar() {
         {/* Menu */}
         <ul className="hidden lg:flex gap-8 text-xl">
           {menu.map((section) => (
-            <motion.li 
+            <motion.li
               key={section}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -161,8 +162,8 @@ function Navbar() {
         </div>
 
         {/* Hamburger */}
-        <motion.div 
-          className="lg:hidden cursor-pointer" 
+        <motion.div
+          className="lg:hidden cursor-pointer"
           onClick={() => setOpen(!open)}
           whileTap={{ scale: 0.9 }}
         >
@@ -205,10 +206,10 @@ function Navbar() {
               TH
             </motion.button>
           </div>
-          
+
           <ul className="flex flex-col items-center gap-6 text-xl pb-6">
             {menu.map((section) => (
-              <motion.li 
+              <motion.li
                 key={section}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

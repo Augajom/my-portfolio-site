@@ -11,7 +11,13 @@
     "hi": "สวัสดี ผมชื่อ",
     "name": "อู๋",
     "iam": "ผมคือ",
-    "roles": ["นักพัฒนา", "นักออกแบบเว็บ", "Frontend Developer", "Backend Developer", "Fullstack Developer"],
+    "roles": [
+      "นักพัฒนา",
+      "นักออกแบบเว็บ",
+      "Frontend Developer",
+      "Backend Developer",
+      "Fullstack Developer"
+    ],
     "desc": "กำลังฝึกฝนเพื่อเป็น Fullstack Developer ที่มุ่งมั่นเรียนรู้เทคโนโลยีใหม่ๆ และพัฒนาทักษะของตนเอง พร้อมมีส่วนร่วมในโปรเจ็กต์ที่มีคุณค่า"
   },
   "about": {
@@ -20,13 +26,13 @@
     "intro": {
       "title": "แนะนำตัว",
       "greeting": "สวัสดีครับ ผมชื่อ",
-      "name" : "ศุภเมธี อินทรลิบ (อู๋)",
+      "name": "ศุภเมธี อินทรลิบ (อู๋)",
       "study": "กำลังศึกษาที่สาขาวิศวกรรมคอมพิวเตอร์\nมหาวิทยาลัยแม่ฟ้าหลวง",
       "internship": "กำลังมองหาที่ฝึกงานในตำแหน่ง Fullstack Developer",
       "goal": "เป้าหมายของการฝึกงานคือเพื่อเพิ่มประสบการณ์ เข้าใจการทำงานจริง และพัฒนาทักษะทางเทคนิค"
     },
     "edu": {
-        "header": "การศึกษา",
+      "header": "การศึกษา",
       "highschool": "โรงเรียนศรีราชา",
       "highschool_desc": "สายวิทย์-คณิต เตรียมวิศวกรรมคอมพิวเตอร์",
       "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
@@ -34,7 +40,7 @@
       "present": "ปัจจุบัน"
     },
     "interests": {
-        "header": "ความสนใจและทักษะทางสังคม",
+      "header": "ความสนใจและทักษะทางสังคม",
       "web": "พัฒนาเว็บไซต์",
       "ai": "AI และ Machine Learning",
       "opensource": "ร่วมพัฒนาโอเพนซอร์ส",
@@ -50,154 +56,297 @@
       "adapt": "การปรับตัว",
       "adapt_desc": "เรียนรู้เทคโนโลยีใหม่ ๆ ได้อย่างรวดเร็ว"
     }
-},
-"skills": {
-   "header": "ทักษะ",
-  "frontend": {
-    "title": "Frontend",
-    "framework": "Framework / Library",
-    "styling": "Styling / CSS",
-    "html": "HTML / CSS / JS",
-    "animation": "Animation / Interaction",
-    "items": {
-      "Vue.js": { "title": "Vue.js", "level": "ระดับกลาง" },
-      "React.js": { "title": "React.js", "level": "ระดับกลาง" },
-      "Next.js": { "title": "Next.js", "level": "พื้นฐาน" },
-      "CSS": { "title": "CSS", "level": "เชี่ยวชาญ" },
-      "Bootstrap": { "title": "Bootstrap", "level": "ขั้นสูง" },
-      "Tailwind": { "title": "Tailwind", "level": "ขั้นสูง" },
-      "HTML5": { "title": "HTML5", "level": "เชี่ยวชาญ" },
-      "CSS3": { "title": "CSS3", "level": "เชี่ยวชาญ" },
-      "JavaScript": { "title": "JavaScript (ES6+)", "level": "ขั้นสูง" },
-      "TypeScript": { "title": "TypeScript", "level": "ระดับเริ่มต้น" },
-      "Framer Motion": { "title": "Framer Motion", "level": "พื้นฐาน" }
-    }
   },
-  "backend": {
-    "title": "Backend",
-    "authentication": "Authentication / Authorization",
-    "items": {
-      "Node.js": { "title": "Node.js", "level": "ขั้นสูง" },
-      "Express.js": { "title": "Express.js", "level": "ขั้นสูง" },
-      "Google OAuth2": { "title": "Google OAuth2", "level": "พื้นฐาน" },
-      "JWT": { "title": "JWT", "level": "ระดับกลาง" }
-    }
-  },
-  "database": {
-    "title": "Database",
-    "sql": "SQL",
-    "nosql": "NoSQL",
-    "items": {
-      "MySQL": { "title": "MySQL", "level": "ขั้นสูง" },
-      "MongoDB": { "title": "MongoDB", "level": "ระดับเริ่มต้น" }
-    }
-  },
-  "tools": {
-    "title": "Tools / Development",
-    "vControl": "Version Control",
-    "container": "Container / DevOps",
-    "ide": "IDE / Editor",
-    "api": "API Testing",
-    "deploy": "Deployment / Hosting",
-    "items": {
-      "Git": { "title": "Git", "level": "ระดับกลาง" },
-      "GitHub": { "title": "GitHub", "level": "ระดับกลาง" },
-      "Docker": { "title": "Docker", "level": "ระดับกลาง" },
-      "Docker Compose": { "title": "Docker Compose", "level": "ระดับกลาง" },
-      "Linux": { "title": "Linux", "level": "ระดับกลาง" },
-      "Window": { "title": "Window", "level": "เชี่ยวชาญ" },
-      "SSH": { "title": "SSH", "level": "ระดับกลาง" },
-      "GitHub Actions": { "title": "GitHub Actions", "level": "ระดับเริ่มต้น" },
-      "VSCode": { "title": "VSCode", "level": "เชี่ยวชาญมาก" },
-      "Webstorm": { "title": "Webstorm", "level": "ระดับเริ่มต้น" },
-      "Thunder Client": { "title": "Thunder Client", "level": "ขั้นสูง" },
-      "Postman": { "title": "Postman", "level": "ระดับกลาง" },
-      "AWS": { "title": "AWS", "level": "พื้นฐาน" },
-      "Nginx": { "title": "Nginx", "level": "พื้นฐาน" }
-    }
-  },
-  "other": {
-    "title": "Design / Other",
-    "items": {
-      "Figma": { "title": "Figma", "level": "ขั้นสูง" },
-      "Photoshop": { "title": "Photoshop", "level": "ขั้นสูง" },
-      "Canva": { "title": "Canva", "level": "เชี่ยวชาญมาก" },
-      "Flutter": { "title": "Flutter", "level": "พื้นฐาน" },
-      "Dart": { "title": "Dart", "level": "พื้นฐาน" },
-      "Premiere Pro": { "title": "Premiere Pro", "level": "ระดับกลาง" }
-    }
-  },
-        "languages": {
-            "title": "ภาษา",
-             "items": {
-            "English": { "title": "ภาษาอังกฤษ", "level": "ระดับกลาง \n(อ่านออกเข้าใจดี, พูด/เขียนยังไม่คล่อง)" },
-            "Thai": { "title": "ภาษาไทย", "level": "เจ้าของภาษา \n(อ่านออกเข้าใจดีมาก, พูด/เขียนคล่อง)" }
-            }
-            }
-},
-        "projects": {
-            "header": "ผลงาน",
-            "items": {
-                "p1": {
-                    "title": "โปรเจกต์แรกในชีวิต",
-                    "description": "พัฒนาเว็บไซต์สำหรับระบบเข้าสู่ระบบและสมัครสมาชิกแบบพื้นฐาน",
-                    "tech": ["html5"]
-                },
-                "p2": {
-                    "title": "โปรเจกต์แรกที่ใช้ CSS",
-                    "description": "โปรเจกต์เว็บแรกจองผม สร้างหน้าเข้าสู่ระบบ/สมัครสมาชิกอย่างง่ายเพื่อฝึกทักษะด้าน Front-end",
-                    "tech": ["html5", "CSS"]
-                },
-                "p3": {
-                    "title": "โปรเจกต์แรกที่ใช้ JavaScript",
-                    "description": "สร้างเครื่องคิดเลขอย่างง่ายเพื่อฝึกพื้นฐาน JavaScript และการจัดการ DOM",
-                    "tech": ["html5", "CSS", "Javascript", "DOM"]
-                },
-                "p4": {
-                    "title": "โปรเจกต์แรกที่ใช้ Array",
-                    "description": "สร้างเว็บไซต์ที่เก็บและจัดการข้อมูลใน Array พร้อมแสดงผลบนหน้าเว็บแบบไดนามิก",
-                    "tech": ["html5", "CSS", "Javascript"]
-                },
-                "p5": {
-                    "title": "โปรเจกต์แรกที่ใช้ JSON และ Bootstrap",
-                    "description": "ทดลองเก็บข้อมูลใน JSON และสร้างเลย์เอาท์ที่ตอบสนองด้วย Bootstrap เป็นครั้งแรก",
-                    "tech": ["html5", "CSS", "Javascript", "JSON", "Bootstrap5"]
-                },
-                "p6": {
-                    "title": "ระบบจองหนังสือ",
-                    "description": "โปรเจกต์ทีมในการพัฒนาระบบจองหนังสือบนเว็บ พร้อมระบบเข้าสู่ระบบที่ปลอดภัย กระบวนการอนุมัติ และแดชบอร์ดผู้ดูแลสำหรับจัดการการยืม",
-                    "tech": ["html5", "CSS", "Javascript", "Node.js", "Express.js", "JWT", "MySQL"]
-                }
-            }
-         },
-         "experience": {
-          "header": "ประสบการณ์ทำงาน",
-          "items": {
-            "exp1": {
-              "title": "นักพัฒนาเว็บไซต์ \nศูนย์บริการวิชาการ",
-              "company": "มหาวิทยาลัยแม่ฟ้าหลวง",
-              "period": "ก.พ. 2025 - ก.ค. 2025",
-              "description": "ทำงานในตำแหน่ง Fullstack Web Developer ที่ ศูนย์บริการวิชาการ มหาวิทยาลัยแม่ฟ้าหลวง ออกแบบและพัฒนาเว็บแอปพลิเคชันแบบครบวงจรตั้งแต่เริ่มต้น โดยมีฟีเจอร์ดังนี้:\n\n• ระบบจัดการบทบาทผู้ใช้ (RBAC) รองรับ 4 บทบาทหลัก: หัวหน้าโครงการ, คณบดี, แอดมิน, และบอร์ด พร้อมสิทธิ์การเข้าถึงหน้าและการอนุมัติ\n• ระบบล็อกอินด้วย Google OAuth พร้อมจัดการ session, ตรวจสอบอีเมล และสิทธิ์ตามบทบาท\n• ระบบฟอร์มข้อเสนอแบบหลายหน้า พร้อม AutoSave และแนบไฟล์ (PDF, Word ฯลฯ) เก็บบนเซิร์ฟเวอร์\n• ระบบวิเคราะห์ต้นทุน-ผลตอบแทน คำนวณค่าใช้จ่ายรวม, กำไร, ต่อหัว และเปอร์เซ็นต์ความคุ้มค่าอัตโนมัติ\n• ระบบอนุมัติหลายขั้น (Workflow Approval) แสดงสถานะปัจจุบันและเหตุผลการตีกลับตามบทบาท\n• ระบบ Timeline Tracking แสดงประวัติการอนุมัติ พร้อมชื่อผู้อนุมัติ, วันที่, และสถานะ ตามสิทธิ์บทบาท\n• ระบบ Export รายงานเป็น PDF และ Excel สำหรับส่งคณะกรรมการและเก็บบันทึก\n• ระบบจัดการผู้ใช้ พร้อมนำเข้าข้อมูลจำนวนมากจาก Excel เพิ่ม, แก้ไข, ลบ และจัดการสิทธิ์\n• Dashboard แสดงสถานะโครงการ, กรองตามชื่อ/สถานะ/สำนัก, และแสดงรายได้-รายจ่ายรวม\n• เปิด/ปิดการส่งข้อเสนออัตโนมัติตามตารางเวลา (node-cron)\n• ติดตั้งและปรับใช้ระบบ (Deployment) บน Docker, Docker Compose, Nginx, Linux พร้อมตั้งค่า SSL, Domain และ Reverse Proxy\n• ระบบควบคุมสิทธิ์ผู้ใช้แบบเรียลไทม์ ป้องกันการเข้าถึงหน้าและฟีเจอร์ต่าง ๆ, ป้องกัน URL โดยตรง, และแสดงเมนูตามบทบาท\n• ระบบส่ง Email แจ้งเตือนอัตโนมัติด้วย Nodemailer\n\nออกแบบ UI/UX แบบ Responsive ด้วย Vue.js, HTML, CSS, Bootstrap และเชื่อมต่อฟังก์ชัน Backend ด้วย Node.js, Express, OAuth2 และ MySQL"
-            }
-          }
+  "skills": {
+    "header": "ทักษะ",
+    "frontend": {
+      "title": "Frontend",
+      "framework": "Framework / Library",
+      "styling": "Styling / CSS",
+      "html": "HTML / CSS / JS",
+      "animation": "Animation / Interaction",
+      "items": {
+        "Vue.js": {
+          "title": "Vue.js",
+          "level": "ระดับกลาง"
         },
-        "contact": {
-  "header": "ข้อมูลติดต่อ",
-  "items": {
-    "address": {
-      "title": "ที่อยู่",
-      "desc": "888/213 หมู่บ้านสิริภัสสร วิลเลจ ตำบลบางพระ อำเภอศรีราชา จังหวัดชลบุรี 20110 ประเทศไทย"
+        "React.js": {
+          "title": "React.js",
+          "level": "ระดับกลาง"
+        },
+        "Next.js": {
+          "title": "Next.js",
+          "level": "พื้นฐาน"
+        },
+        "CSS": {
+          "title": "CSS",
+          "level": "เชี่ยวชาญ"
+        },
+        "Bootstrap": {
+          "title": "Bootstrap",
+          "level": "ขั้นสูง"
+        },
+        "Tailwind": {
+          "title": "Tailwind",
+          "level": "ขั้นสูง"
+        },
+        "HTML5": {
+          "title": "HTML5",
+          "level": "เชี่ยวชาญ"
+        },
+        "CSS3": {
+          "title": "CSS3",
+          "level": "เชี่ยวชาญ"
+        },
+        "JavaScript": {
+          "title": "JavaScript (ES6+)",
+          "level": "ขั้นสูง"
+        },
+        "TypeScript": {
+          "title": "TypeScript",
+          "level": "ระดับเริ่มต้น"
+        },
+        "Framer Motion": {
+          "title": "Framer Motion",
+          "level": "พื้นฐาน"
+        }
+      }
     },
-    "email": {
-      "title": "อีเมล",
-      "desc": "suphamethee.au@gmail.com\n6531501120@lamduan.mfu.ac.th"
+    "backend": {
+      "title": "Backend",
+      "authentication": "Authentication / Authorization",
+      "items": {
+        "Node.js": {
+          "title": "Node.js",
+          "level": "ขั้นสูง"
+        },
+        "Express.js": {
+          "title": "Express.js",
+          "level": "ขั้นสูง"
+        },
+        "Google OAuth2": {
+          "title": "Google OAuth2",
+          "level": "พื้นฐาน"
+        },
+        "JWT": {
+          "title": "JWT",
+          "level": "ระดับกลาง"
+        }
+      }
     },
-    "phone": {
-      "title": "โทร",
-      "desc": "+66 83 834 4340"
+    "database": {
+      "title": "Database",
+      "sql": "SQL",
+      "nosql": "NoSQL",
+      "items": {
+        "MySQL": {
+          "title": "MySQL",
+          "level": "ขั้นสูง"
+        },
+        "MongoDB": {
+          "title": "MongoDB",
+          "level": "ระดับเริ่มต้น"
+        }
+      }
+    },
+    "tools": {
+      "title": "Tools / Development",
+      "vControl": "Version Control",
+      "container": "Container / DevOps",
+      "ide": "IDE / Editor",
+      "api": "API Testing",
+      "deploy": "Deployment / Hosting",
+      "items": {
+        "Git": {
+          "title": "Git",
+          "level": "ระดับกลาง"
+        },
+        "GitHub": {
+          "title": "GitHub",
+          "level": "ระดับกลาง"
+        },
+        "Docker": {
+          "title": "Docker",
+          "level": "ระดับกลาง"
+        },
+        "Docker Compose": {
+          "title": "Docker Compose",
+          "level": "ระดับกลาง"
+        },
+        "Linux": {
+          "title": "Linux",
+          "level": "ระดับกลาง"
+        },
+        "Window": {
+          "title": "Window",
+          "level": "เชี่ยวชาญ"
+        },
+        "SSH": {
+          "title": "SSH",
+          "level": "ระดับกลาง"
+        },
+        "GitHub Actions": {
+          "title": "GitHub Actions",
+          "level": "ระดับเริ่มต้น"
+        },
+        "VSCode": {
+          "title": "VSCode",
+          "level": "เชี่ยวชาญมาก"
+        },
+        "Webstorm": {
+          "title": "Webstorm",
+          "level": "ระดับเริ่มต้น"
+        },
+        "Thunder Client": {
+          "title": "Thunder Client",
+          "level": "ขั้นสูง"
+        },
+        "Postman": {
+          "title": "Postman",
+          "level": "ระดับกลาง"
+        },
+        "AWS": {
+          "title": "AWS",
+          "level": "พื้นฐาน"
+        },
+        "Nginx": {
+          "title": "Nginx",
+          "level": "พื้นฐาน"
+        }
+      }
+    },
+    "other": {
+      "title": "Design / Other",
+      "items": {
+        "Figma": {
+          "title": "Figma",
+          "level": "ขั้นสูง"
+        },
+        "Photoshop": {
+          "title": "Photoshop",
+          "level": "ขั้นสูง"
+        },
+        "Canva": {
+          "title": "Canva",
+          "level": "เชี่ยวชาญมาก"
+        },
+        "Flutter": {
+          "title": "Flutter",
+          "level": "พื้นฐาน"
+        },
+        "Dart": {
+          "title": "Dart",
+          "level": "พื้นฐาน"
+        },
+        "Premiere Pro": {
+          "title": "Premiere Pro",
+          "level": "ระดับกลาง"
+        }
+      }
+    },
+    "languages": {
+      "title": "ภาษา",
+      "items": {
+        "English": {
+          "title": "ภาษาอังกฤษ",
+          "level": "ระดับกลาง \n(อ่านออกเข้าใจดี, พูด/เขียนยังไม่คล่อง)"
+        },
+        "Thai": {
+          "title": "ภาษาไทย",
+          "level": "เจ้าของภาษา \n(อ่านออกเข้าใจดีมาก, พูด/เขียนคล่อง)"
+        }
+      }
+    }
+  },
+  "projects": {
+    "header": "ผลงาน",
+    "items": {
+      "p1": {
+        "title": "โปรเจกต์แรกในชีวิต",
+        "description": "พัฒนาเว็บไซต์สำหรับระบบเข้าสู่ระบบและสมัครสมาชิกแบบพื้นฐาน",
+        "tech": [
+          "html5"
+        ]
+      },
+      "p2": {
+        "title": "โปรเจกต์แรกที่ใช้ CSS",
+        "description": "โปรเจกต์เว็บแรกจองผม สร้างหน้าเข้าสู่ระบบ/สมัครสมาชิกอย่างง่ายเพื่อฝึกทักษะด้าน Front-end",
+        "tech": [
+          "html5",
+          "CSS"
+        ]
+      },
+      "p3": {
+        "title": "โปรเจกต์แรกที่ใช้ JavaScript",
+        "description": "สร้างเครื่องคิดเลขอย่างง่ายเพื่อฝึกพื้นฐาน JavaScript และการจัดการ DOM",
+        "tech": [
+          "html5",
+          "CSS",
+          "Javascript",
+          "DOM"
+        ]
+      },
+      "p4": {
+        "title": "โปรเจกต์แรกที่ใช้ Array",
+        "description": "สร้างเว็บไซต์ที่เก็บและจัดการข้อมูลใน Array พร้อมแสดงผลบนหน้าเว็บแบบไดนามิก",
+        "tech": [
+          "html5",
+          "CSS",
+          "Javascript"
+        ]
+      },
+      "p5": {
+        "title": "โปรเจกต์แรกที่ใช้ JSON และ Bootstrap",
+        "description": "ทดลองเก็บข้อมูลใน JSON และสร้างเลย์เอาท์ที่ตอบสนองด้วย Bootstrap เป็นครั้งแรก",
+        "tech": [
+          "html5",
+          "CSS",
+          "Javascript",
+          "JSON",
+          "Bootstrap5"
+        ]
+      },
+      "p6": {
+        "title": "ระบบจองหนังสือ",
+        "description": "โปรเจกต์ทีมในการพัฒนาระบบจองหนังสือบนเว็บ พร้อมระบบเข้าสู่ระบบที่ปลอดภัย กระบวนการอนุมัติ และแดชบอร์ดผู้ดูแลสำหรับจัดการการยืม",
+        "tech": [
+          "html5",
+          "CSS",
+          "Javascript",
+          "Node.js",
+          "Express.js",
+          "JWT",
+          "MySQL"
+        ]
+      }
+    }
+  },
+  "experience": {
+    "header": "ประสบการณ์ทำงาน",
+    "items": {
+      "exp1": {
+        "title": "นักพัฒนาเว็บไซต์ \nศูนย์บริการวิชาการ",
+        "company": "มหาวิทยาลัยแม่ฟ้าหลวง",
+        "period": "ก.พ. 2025 - ก.ค. 2025",
+        "description": "ทำงานในตำแหน่ง Fullstack Web Developer ที่ ศูนย์บริการวิชาการ มหาวิทยาลัยแม่ฟ้าหลวง ออกแบบและพัฒนาเว็บแอปพลิเคชันแบบครบวงจรตั้งแต่เริ่มต้น โดยมีฟีเจอร์ดังนี้:\n\n• ระบบจัดการบทบาทผู้ใช้ (RBAC) รองรับ 4 บทบาทหลัก: หัวหน้าโครงการ, คณบดี, แอดมิน, และบอร์ด พร้อมสิทธิ์การเข้าถึงหน้าและการอนุมัติ\n• ระบบล็อกอินด้วย Google OAuth พร้อมจัดการ session, ตรวจสอบอีเมล และสิทธิ์ตามบทบาท\n• ระบบฟอร์มข้อเสนอแบบหลายหน้า พร้อม AutoSave และแนบไฟล์ (PDF, Word ฯลฯ) เก็บบนเซิร์ฟเวอร์\n• ระบบวิเคราะห์ต้นทุน-ผลตอบแทน คำนวณค่าใช้จ่ายรวม, กำไร, ต่อหัว และเปอร์เซ็นต์ความคุ้มค่าอัตโนมัติ\n• ระบบอนุมัติหลายขั้น (Workflow Approval) แสดงสถานะปัจจุบันและเหตุผลการตีกลับตามบทบาท\n• ระบบ Timeline Tracking แสดงประวัติการอนุมัติ พร้อมชื่อผู้อนุมัติ, วันที่, และสถานะ ตามสิทธิ์บทบาท\n• ระบบ Export รายงานเป็น PDF และ Excel สำหรับส่งคณะกรรมการและเก็บบันทึก\n• ระบบจัดการผู้ใช้ พร้อมนำเข้าข้อมูลจำนวนมากจาก Excel เพิ่ม, แก้ไข, ลบ และจัดการสิทธิ์\n• Dashboard แสดงสถานะโครงการ, กรองตามชื่อ/สถานะ/สำนัก, และแสดงรายได้-รายจ่ายรวม\n• เปิด/ปิดการส่งข้อเสนออัตโนมัติตามตารางเวลา (node-cron)\n• ติดตั้งและปรับใช้ระบบ (Deployment) บน Docker, Docker Compose, Nginx, Linux พร้อมตั้งค่า SSL, Domain และ Reverse Proxy\n• ระบบควบคุมสิทธิ์ผู้ใช้แบบเรียลไทม์ ป้องกันการเข้าถึงหน้าและฟีเจอร์ต่าง ๆ, ป้องกัน URL โดยตรง, และแสดงเมนูตามบทบาท\n• ระบบส่ง Email แจ้งเตือนอัตโนมัติด้วย Nodemailer\n\nออกแบบ UI/UX แบบ Responsive ด้วย Vue.js, HTML, CSS, Bootstrap และเชื่อมต่อฟังก์ชัน Backend ด้วย Node.js, Express, OAuth2 และ MySQL"
+      }
+    }
+  },
+  "contact": {
+    "header": "ข้อมูลติดต่อ",
+    "items": {
+      "address": {
+        "title": "ที่อยู่",
+        "desc": "888/213 หมู่บ้านสิริภัสสร วิลเลจ ตำบลบางพระ อำเภอศรีราชา จังหวัดชลบุรี 20110 ประเทศไทย"
+      },
+      "email": {
+        "title": "อีเมล",
+        "desc": "suphamethee.au@gmail.com\n6531501120@lamduan.mfu.ac.th"
+      },
+      "phone": {
+        "title": "โทร",
+        "desc": "+66 83 834 4340"
+      }
     }
   }
-}
-
-
 }
