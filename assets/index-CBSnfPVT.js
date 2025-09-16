@@ -83,8 +83,8 @@ Implemented responsive UI/UX using Vue.js, HTML, CSS, and Bootstrap, and integra
 • ระบบจัดการผู้ใช้ พร้อมนำเข้าข้อมูลจำนวนมากจาก Excel เพิ่ม, แก้ไข, ลบ และจัดการสิทธิ์
 • Dashboard แสดงสถานะโครงการ, กรองตามชื่อ/สถานะ/สำนัก, และแสดงรายได้-รายจ่ายรวม
 • เปิด/ปิดการส่งข้อเสนออัตโนมัติตามตารางเวลา (node-cron)
-• ติดตั้งและปรับใช้ระบบ (Deployment) บน Docker, Docker Compose, Nginx, Linux พร้อมตั้งค่า SSL, Domain และ Reverse Proxy
-• ระบบควบคุมสิทธิ์ผู้ใช้แบบเรียลไทม์ ป้องกันการเข้าถึงหน้าและฟีเจอร์ต่าง ๆ, ป้องกัน URL โดยตรง, และแสดงเมนูตามบทบาท
+• ติดตั้งและปรับใช้ระบบ (Deployment) บน Docker, Docker Compose, Nginx, Linux พร้อมตั้งค่า Reverse Proxy
+• ระบบควบคุมสิทธิ์ผู้ใช้แบบเรียลไทม์ ป้องกันการเข้าถึงหน้าและฟีเจอร์ต่าง ๆ, ป้องกัน URL โดยตรง, และแสดงเมนูตามบทบาท (middlewares)
 • ระบบส่ง Email แจ้งเตือนอัตโนมัติด้วย Nodemailer
 
 ออกแบบ UI/UX แบบ Responsive ด้วย Vue.js, HTML, CSS, Bootstrap และเชื่อมต่อฟังก์ชัน Backend ด้วย Node.js, Express, OAuth2 และ MySQL`}}},Ty={header:"ข้อมูลติดต่อ",items:{address:{title:"ที่อยู่",desc:"888/213 หมู่บ้านสิริภัสสร วิลเลจ ตำบลบางพระ อำเภอศรีราชา จังหวัดชลบุรี 20110 ประเทศไทย"},email:{title:"อีเมล",desc:`suphamethee.au@gmail.com
