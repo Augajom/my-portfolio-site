@@ -42,7 +42,7 @@ function Contact() {
         {/* Header */}
         <motion.div className="pt-10 inline-block">
           <motion.h1
-            className="text-6xl md:text-8xl font-extrabold h-26
+            className="text-5xl sm:text-6xl md:text-8xl font-extrabold h-26
                       bg-gradient-to-r from-orange-500 via-yellow-400 to-red-600 
                       bg-clip-text text-transparent 
                       drop-shadow-[0_0_15px_rgba(255,140,0,0.6)]"
@@ -89,33 +89,33 @@ function Contact() {
             href="https://github.com/Augajom"
             target="_blank"
             rel="noopener noreferrer"
-            className="group border border-orange-500 w-16 h-16 md:w-20 md:h-20 rounded-full flex justify-center items-center hover:bg-orange-500 hover:w-22 hover:h-22 cursor-pointer transition-all duration-300"
+            className="group border border-orange-500 w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full flex justify-center items-center hover:bg-orange-500 hover:w-22 hover:h-22 cursor-pointer transition-all duration-300"
           >
-            <FaGithub className="size-8 md:size-12 text-orange-500 group-hover:text-black transition-all duration-300" />
+            <FaGithub className="size-4 sm:size-8 md:size-12 text-orange-500 group-hover:text-black transition-all duration-300" />
           </a>
           <a
             href="https://mail.google.com/mail/?view=cm&fs=1&to=suphamethee.au@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="group border border-orange-500 w-16 h-16 md:w-20 md:h-20 rounded-full flex justify-center items-center hover:bg-orange-500 hover:w-22 hover:h-22 cursor-pointer transition-all duration-300"
+            className="group border border-orange-500 w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full flex justify-center items-center hover:bg-orange-500 hover:w-22 hover:h-22 cursor-pointer transition-all duration-300"
           >
-            <SiGmail className="size-8 md:size-12 text-orange-500 group-hover:text-black transition-all duration-300" />
+            <SiGmail className="size-4 m:size-8 md:size-12 text-orange-500 group-hover:text-black transition-all duration-300" />
           </a>
           <a
             href="https://www.facebook.com/suphamethee.au/"
             target="_blank"
             rel="noopener noreferrer"
-            className="group border border-orange-500 w-16 h-16 md:w-20 md:h-20 rounded-full flex justify-center items-center hover:bg-orange-500 hover:w-22 hover:h-22 cursor-pointer transition-all duration-300"
+            className="group border border-orange-500 w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full flex justify-center items-center hover:bg-orange-500 hover:w-22 hover:h-22 cursor-pointer transition-all duration-300"
           >
-            <FaFacebook className="size-8 md:size-12 text-orange-500 group-hover:text-black transition-all duration-300" />
+            <FaFacebook className="size-4 sm:size-8 md:size-12 text-orange-500 group-hover:text-black transition-all duration-300" />
           </a>
           <a
             href="https://www.instagram.com/sp_rea1s/"
             target="_blank"
             rel="noopener noreferrer"
-            className="group border border-orange-500 w-16 h-16 md:w-20 md:h-20 rounded-full flex justify-center items-center hover:bg-orange-500 hover:w-22 hover:h-22 cursor-pointer transition-all duration-300"
+            className="group border border-orange-500 w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full flex justify-center items-center hover:bg-orange-500 hover:w-22 hover:h-22 cursor-pointer transition-all duration-300"
           >
-            <RiInstagramFill className="size-8 md:size-12 text-orange-500 group-hover:text-black transition-all duration-300" />
+            <RiInstagramFill className="size-4 sm:size-8 md:size-12 text-orange-500 group-hover:text-black transition-all duration-300" />
           </a>
         </div>
       </div>
